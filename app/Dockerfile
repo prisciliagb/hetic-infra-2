@@ -3,7 +3,7 @@ FROM node:14
 
 
 # Copier le fichier package.json et installer les dépendances
-COPY package*.json ./
+COPY app/package*.json ./
 RUN npm install
 
 # Copier le reste du code
